@@ -14,7 +14,6 @@ namespace DITestProject.UnitTesting
         {
             InputHandler inputHandler = new InputHandler(new StorageService());
 
-            DateTime currentDateTime = DateTime.Now;
             inputHandler.AddEntry("TestValue");
 
             var data = inputHandler.ReadEntries();
